@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://Helm.elastic.co
+    repoURL: https://github.com/elastic/helm-charts
     chart: elasticsearch
     helm:
       values: |
