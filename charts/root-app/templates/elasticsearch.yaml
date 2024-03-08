@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/elastic/helm-charts
     chart: elasticsearch
+    targetRevision: 8.5.1
     helm:
       values: |
         pushgateway:
