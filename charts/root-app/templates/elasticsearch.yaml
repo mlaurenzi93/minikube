@@ -17,7 +17,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     cluster.initial_master_nodes:
-      - minikube
+      - control-plane
     namespace: default
   syncPolicy:
     automated:
